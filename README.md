@@ -7,7 +7,6 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 As an intermediate developer proficient in JavaScript, Ruby, and Python, I bring a versatile skill set honed through experiences at Shopify and Lighthouse Labs. At Shopify, I design and maintain solutions for merchants, collaborating closely with cross-functional teams to ensure alignment with project goals. My role at Lighthouse Labs involves providing personalized assistance to students, fostering a supportive learning environment, and evaluating project submissions for technical accuracy. 🔧 Innovative Project Contributor In addition to my professional roles, my educational background includes elite software engineering training at Qwasar Silicon Valley and certificates in cyber security essentials and UX design from Brainstation. Proficient in a range of frameworks and testing methodologies, I am eager to leverage my skills and experience to drive innovation and contribute effectively to challenging projects.
 
 * 🌍  I'm based in Canada
-* 🖥️  See my portfolio at [yogimathius.dev](http://yogimathius.dev)
 * ✉️  You can contact me at [info@yogimathius.dev](mailto:info@yogimathius.dev)
 * 🚀  I'm currently working on [Core War](http://github.com/yogimathius/core-war)
 * 🧠  I'm learning C and Rust
