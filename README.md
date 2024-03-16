@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 🚀 Experienced Developer & Mentor
 ---------------------------------
 
-As an intermediate developer proficient in JavaScript, Ruby, and Python, I bring a versatile skill set honed through experiences at Shopify and Lighthouse Labs. At Shopify, I design and maintain solutions for merchants, collaborating closely with cross-functional teams to ensure alignment with project goals. My role at Lighthouse Labs involves providing personalized assistance to students, fostering a supportive learning environment, and evaluating project submissions for technical accuracy. 
+As an experienced developer proficient in JavaScript, Ruby, and Python, I bring a versatile skill set honed through experiences at Shopify and Lighthouse Labs. At Shopify, I design and maintain solutions for merchants, collaborating closely with cross-functional teams to ensure alignment with project goals. My role at Lighthouse Labs involves providing personalized assistance to students, fostering a supportive learning environment, and evaluating project submissions for technical accuracy. 
 
 **🔧 Innovative Project Contributor**
 ---------------------------------
