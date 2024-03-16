@@ -9,7 +9,7 @@ As an intermediate developer proficient in JavaScript, Ruby, and Python, I bring
 **🔧 Innovative Project Contributor**
 ---------------------------------
 
-In addition to my professional roles, my educational background includes elite software engineering training at Qwasar Silicon Valley and certificates in cyber security essentials and UX design from Brainstation. Proficient in a range of frameworks and testing methodologies, I am eager to leverage my skills and experience to drive innovation and contribute effectively to challenging projects.
+In addition to my professional roles, I am currently studying a Master's in Computer Science, Software Engineering at Qwasar Silicon Valley and certificates in cyber security essentials and UX design from Brainstation. Proficient in a range of frameworks and testing methodologies, I am eager to leverage my skills and experience to drive innovation and contribute effectively to challenging projects.
 
 * 🌍  I'm based in Canada
 * ✉️  You can contact me at [info@yogimathius.dev](mailto:info@yogimathius.dev)
