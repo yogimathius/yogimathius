@@ -13,7 +13,7 @@ In addition to my professional roles, I am currently studying a Master's in Comp
 
 * 🌍  I'm based in Canada
 * ✉️  You can contact me at [info@yogimathius.dev](mailto:info@yogimathius.dev)
-* 🚀  I'm currently working on [Core War](http://github.com/yogimathius/core-war)
+* 🚀  I'm currently working on [My Rust Redis Server](https://github.com/yogimathius/my_rust_redis/)
 * 🧠  I'm learning C and Rust
 
 ### Skills
