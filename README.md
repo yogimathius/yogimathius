@@ -30,24 +30,6 @@ I'm a versatile developer with expertise across multiple technology stacks, curr
 - 🎨 UX Design Certificate - Brainstation
 - 💻 Full Stack Web Development Diploma - Lighthouse Labs
 
-## 🌟 Professional Highlights
-
-### Shopify (2022 - Present)
-Software Engineer focusing on merchant solutions and platform scalability
-
-### Technical Mentorship
-- **Springboard Bootcamp** (2023 - 2024)
-- **Lighthouse Labs** (2020 - 2024)
-
-## 🔧 Core Competencies
-
-- Full-stack Application Architecture
-- Systems Programming & Optimization
-- Cloud Infrastructure (AWS, GCP)
-- API Design & Implementation
-- Technical Mentorship
-- Security Best Practices
-
 ## 🤝 Let's Connect
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mathius-johnson)
