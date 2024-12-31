@@ -4,12 +4,12 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 🚀 Experienced Developer & Mentor
 ---------------------------------
 
-As an experienced developer proficient in JavaScript, Ruby, and Python, I bring a versatile skill set honed through experiences at Shopify, Springboard and Lighthouse Labs. At Shopify, I design and maintain solutions for merchants, collaborating closely with cross-functional teams to ensure alignment with project goals. My role at Springboard involves providing personalized assistance to students, fostering a supportive learning environment, and evaluating project submissions for technical accuracy. 
+As an experienced developer proficient in JavaScript, Ruby, and Python, I bring a versatile skill set honed through experiences at Shopify, Springboard and Lighthouse Labs. At Shopify, I design and maintain solutions for merchants, collaborating closely with cross-functional teams to ensure alignment with project goals. My previous role at Springboard and Lighthouse Labs involved providing personalized assistance to students, fostering a supportive learning environment, and evaluating project submissions for technical accuracy. 
 
 **🔧 Innovative Project Contributor**
 ---------------------------------
 
-In addition to my professional roles, I am currently studying a Master's in Computer Science, Software Engineering at Qwasar Silicon Valley and certificates in cyber security essentials and UX design from Brainstation. Proficient in a range of frameworks and testing methodologies, I am eager to leverage my skills and experience to drive innovation and contribute effectively to challenging projects.
+In addition to my professional roles, I am currently studying a Master's in Computer Science, Software Engineering at Qwasar Silicon Valley and have completed certificates in cyber security essentials and UX design from Brainstation. Proficient in a range of frameworks and testing methodologies, I am eager to leverage my skills and experience to drive innovation and contribute effectively to challenging projects.
 
 * 🌍  I'm based in Canada
 * ✉️  You can contact me at [info@yogimathius.dev](mailto:info@yogimathius.dev)
