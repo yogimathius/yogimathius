@@ -5,7 +5,7 @@
 I'm a versatile developer with expertise across multiple technology stacks, currently working at Shopify while pursuing a Master's in Computer Science at Qwasar Silicon Valley. My development philosophy combines technical precision with creative problem-solving, always seeking to bridge the gap between complex challenges and elegant solutions.
 
 * 🌍 Based in Canada
-* 💼 Software Engineer at [Shopify](https://shopify.com)
+* 💼 Senior Software Engineer at [Shopify](https://shopify.com)
 * 📚 Pursuing MSc in Computer Science at Qwasar Silicon Valley
 * 📧 Contact me at [info@yogimathius.dev](mailto:info@yogimathius.dev)
 * 🧠 Deep diving into Elixir, Rust, and LLM Engineering
