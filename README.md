@@ -1,6 +1,6 @@
 # Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) I'm Mathius Johnson
 
-## 🚀 Software Engineer & Technical Mentor
+## 🚀 Senior Software Engineer, AI Centaur & Technical Mentor
 
 I'm a versatile developer with expertise across multiple technology stacks, currently working at Shopify while pursuing a Master's in Computer Science at Qwasar Silicon Valley. My development philosophy combines technical precision with creative problem-solving, always seeking to bridge the gap between complex challenges and elegant solutions.
 
