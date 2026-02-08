@@ -27,6 +27,20 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 | [api-in-stress](https://github.com/yogimathius/api-in-stress) | API benchmarking and resilience experiments under sustained load | Rust, Axum, Observability |
 | [event_streaming](https://github.com/yogimathius/event_streaming) | Real-time event streaming architecture for asynchronous pipelines | Rust, Tokio, Distributed Systems |
 
+## Latest Writing
+
+<!--START_SECTION:latest_writing-->
+- Initializing dynamic writing feed...
+<!--END_SECTION:latest_writing-->
+
+## Contribution Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg">
+  <img alt="GitHub contribution snake" src="assets/github-snake.svg">
+</picture>
+
 ## Engineering Domains
 
 - Systems: Rust, Go, C, WebAssembly

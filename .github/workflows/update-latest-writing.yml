@@ -1,0 +1,38 @@
+name: Update Latest Writing
+
+on:
+  schedule:
+    - cron: "23 13 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-latest-writing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update README latest writing section
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WRITING_SOURCE_REPO: yogimathius/remix-portfolio
+          WRITING_SOURCE_DIR: docs
+          WRITING_SOURCE_BRANCH: main
+          WRITING_MAX_ITEMS: "5"
+        run: node .github/scripts/update-latest-writing.mjs
+
+      - name: Commit changes
+        run: |
+          if git diff --quiet README.md; then
+            echo "No README changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update latest writing section"
+          git push

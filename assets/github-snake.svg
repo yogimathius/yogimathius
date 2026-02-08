@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
+  <title id="title">Contribution snake placeholder</title>
+  <desc id="desc">Placeholder graphic shown until the workflow generates the contribution snake animation.</desc>
+  <rect width="900" height="180" fill="#f6f8fa" />
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="20" fill="#57606a">
+    Snake visualization will appear after workflow run.
+  </text>
+</svg>
