@@ -131,18 +131,19 @@ function replaceSection(readme, block) {
 async function main() {
   const readme = await readFile(README_PATH, "utf8");
   let entries = [];
-  let hadSourceError = false;
+  let sourceError = null;
 
   try {
     entries = await getWritingEntries();
   } catch (error) {
-    hadSourceError = true;
+    sourceError = error;
     console.warn("Unable to fetch writing entries:", error.message);
   }
 
-  if (hadSourceError) {
-    console.log("Skipping README update because writing source is unavailable.");
-    return;
+  if (sourceError) {
+    throw new Error(
+      `Writing source is unavailable. If ${SOURCE_REPO} is private, set the README_UPDATER_TOKEN secret in this repository with read access to ${SOURCE_REPO}. Original error: ${sourceError.message}`
+    );
   }
 
   const block = renderWritingBlock(entries);
