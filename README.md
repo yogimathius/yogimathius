@@ -14,7 +14,6 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 
 - Location: West Coast, Canada
 - Role: Senior Software Engineer @ Shopify
-- Public repos: 218+
 - Core stack: Rust, Go, TypeScript, Python, Elixir
 - Portfolio: [yogimathius.github.io](https://yogimathius.github.io)
 
