@@ -1,6 +1,6 @@
 # Mathius Johnson
 
-Software engineer at Shopify building systems in Rust, Go, TypeScript, and Python.
+Senior software engineer at Shopify building systems in Typescript, Ruby, Rust, Go, and Python.
 
 I focus on the infrastructure layer for the agentic era: MCP servers, context engineering, memory-aware workflows, and durable APIs.
 
