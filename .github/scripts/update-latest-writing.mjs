@@ -4,91 +4,60 @@ const README_PATH = "README.md";
 const START_MARKER = "<!--START_SECTION:latest_writing-->";
 const END_MARKER = "<!--END_SECTION:latest_writing-->";
 
-const SOURCE_REPO = process.env.WRITING_SOURCE_REPO || "yogimathius/remix-portfolio";
-const SOURCE_DIR = process.env.WRITING_SOURCE_DIR || "docs";
-const SOURCE_BRANCH = process.env.WRITING_SOURCE_BRANCH || "main";
+const WRITING_FEED_URL = process.env.WRITING_FEED_URL || "https://yogimathius.dev/feed.json";
 const MAX_ITEMS = Number(process.env.WRITING_MAX_ITEMS || "5");
-const GH_TOKEN = process.env.GH_TOKEN || "";
 
-function headers() {
-  const base = {
-    Accept: "application/vnd.github+json",
+function requestHeaders() {
+  return {
+    Accept: "application/feed+json, application/json;q=0.9",
     "User-Agent": "yogimathius-readme-updater",
   };
-
-  if (GH_TOKEN) {
-    return {
-      ...base,
-      Authorization: `Bearer ${GH_TOKEN}`,
-    };
-  }
-
-  return base;
 }
 
-function toTitle(filename) {
-  const base = filename.replace(/\.md$/i, "");
-  const acronymMap = {
-    ai: "AI",
-    mcp: "MCP",
-    wasm: "Wasm",
-  };
+async function fetchFeedEntries() {
+  const response = await fetch(WRITING_FEED_URL, { headers: requestHeaders() });
 
-  return base
-    .split(/[-_]/g)
-    .filter(Boolean)
-    .map((part) => {
-      const lower = part.toLowerCase();
-      if (acronymMap[lower]) return acronymMap[lower];
-      if (/^\d+$/.test(part)) return part;
-      return lower.charAt(0).toUpperCase() + lower.slice(1);
-    })
-    .join(" ");
-}
-
-async function fetchJson(url) {
-  const response = await fetch(url, { headers: headers() });
   if (!response.ok) {
-    throw new Error(`Request failed (${response.status}) for ${url}`);
-  }
-  return response.json();
-}
-
-async function getWritingEntries() {
-  const contentsUrl = `https://api.github.com/repos/${SOURCE_REPO}/contents/${SOURCE_DIR}?ref=${encodeURIComponent(SOURCE_BRANCH)}`;
-  const contents = await fetchJson(contentsUrl);
-
-  if (!Array.isArray(contents)) {
-    return [];
+    throw new Error(`Request failed (${response.status})`);
   }
 
-  const markdownFiles = contents
-    .filter((entry) => entry.type === "file" && entry.name.endsWith(".md"))
-    .slice(0, 40);
+  const contentType = response.headers.get("content-type") || "unknown";
+  const raw = await response.text();
 
-  const entries = await Promise.all(
-    markdownFiles.map(async (file) => {
-      const commitUrl = `https://api.github.com/repos/${SOURCE_REPO}/commits?path=${encodeURIComponent(file.path)}&per_page=1&sha=${encodeURIComponent(SOURCE_BRANCH)}`;
-      let date = null;
+  let payload;
+  try {
+    payload = JSON.parse(raw);
+  } catch {
+    throw new Error(`Feed response is not valid JSON (content-type: ${contentType})`);
+  }
 
-      try {
-        const commits = await fetchJson(commitUrl);
-        if (Array.isArray(commits) && commits[0]?.commit?.author?.date) {
-          date = commits[0].commit.author.date;
-        }
-      } catch {
-        // Keep null date and still include the file as a fallback entry.
-      }
+  if (!payload || !Array.isArray(payload.items)) {
+    throw new Error("Feed payload is missing an items array");
+  }
+
+  const entries = payload.items
+    .map((item) => {
+      const title = typeof item.title === "string" && item.title.trim() ? item.title.trim() : "Untitled";
+      const url =
+        typeof item.url === "string"
+          ? item.url
+          : typeof item.external_url === "string"
+            ? item.external_url
+            : "";
+      const isoDate =
+        typeof item.date_published === "string"
+          ? item.date_published
+          : typeof item.date_modified === "string"
+            ? item.date_modified
+            : null;
 
       return {
-        title: toTitle(file.name),
-        url: file.html_url,
-        isoDate: date,
+        title,
+        url,
+        isoDate,
       };
     })
-  );
-
-  const sorted = entries
+    .filter((entry) => entry.url)
     .sort((a, b) => {
       if (!a.isoDate && !b.isoDate) return a.title.localeCompare(b.title);
       if (!a.isoDate) return 1;
@@ -97,19 +66,20 @@ async function getWritingEntries() {
     })
     .slice(0, MAX_ITEMS);
 
-  return sorted;
+  return entries;
 }
 
 function renderWritingBlock(entries) {
   if (!entries.length) {
-    return [
-      "- No recent writing found. The section will auto-update on the next successful run.",
-    ].join("\n");
+    return "- No recent writing found in the public feed.";
   }
 
   return entries
     .map((entry) => {
-      const dateLabel = entry.isoDate ? new Date(entry.isoDate).toISOString().slice(0, 10) : "date n/a";
+      const dateLabel = entry.isoDate
+        ? new Date(entry.isoDate).toISOString().slice(0, 10)
+        : "date n/a";
+
       return `- ${dateLabel} - [${entry.title}](${entry.url})`;
     })
     .join("\n");
@@ -130,19 +100,13 @@ function replaceSection(readme, block) {
 
 async function main() {
   const readme = await readFile(README_PATH, "utf8");
-  let entries = [];
-  let sourceError = null;
 
+  let entries;
   try {
-    entries = await getWritingEntries();
+    entries = await fetchFeedEntries();
   } catch (error) {
-    sourceError = error;
-    console.warn("Unable to fetch writing entries:", error.message);
-  }
-
-  if (sourceError) {
     throw new Error(
-      `Writing source is unavailable. If ${SOURCE_REPO} is private, set the README_UPDATER_TOKEN secret in this repository with read access to ${SOURCE_REPO}. Original error: ${sourceError.message}`
+      `Unable to refresh latest writing from ${WRITING_FEED_URL}. ${error.message}`
     );
   }
 

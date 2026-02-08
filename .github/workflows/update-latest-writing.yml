@@ -17,10 +17,7 @@ jobs:
 
       - name: Update README latest writing section
         env:
-          GH_TOKEN: ${{ secrets.README_UPDATER_TOKEN || secrets.GITHUB_TOKEN }}
-          WRITING_SOURCE_REPO: yogimathius/remix-portfolio
-          WRITING_SOURCE_DIR: docs
-          WRITING_SOURCE_BRANCH: main
+          WRITING_FEED_URL: https://yogimathius.dev/feed.json
           WRITING_MAX_ITEMS: "5"
         run: node .github/scripts/update-latest-writing.mjs
 
