@@ -30,11 +30,11 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 ## Latest Writing
 
 <!--START_SECTION:latest_writing-->
-- 2026-02-07 - [Agentic AI Landscape 2026](https://github.com/yogimathius/remix-portfolio/blob/main/docs/agentic-ai-landscape-2026.md)
-- 2026-02-07 - [Agile AI Development 2026](https://github.com/yogimathius/remix-portfolio/blob/main/docs/agile-ai-development-2026.md)
-- 2026-02-07 - [Frontend Tech 2026 Research](https://github.com/yogimathius/remix-portfolio/blob/main/docs/frontend-tech-2026-research.md)
-- 2026-02-07 - [Local AI 2026 Deep Research](https://github.com/yogimathius/remix-portfolio/blob/main/docs/local-ai-2026-deep-research.md)
-- 2026-02-07 - [MCP Server Building Guide 2026](https://github.com/yogimathius/remix-portfolio/blob/main/docs/mcp-server-building-guide-2026.md)
+- 2026-02-08 - [Agile Is Dead, Long Live Agile: How AI Dismantled Everything We Thought We Knew About Building Software](https://yogimathius.dev/blog/agile-is-dead-long-live-agile-ai-development-methodology)
+- 2026-02-08 - [Building MCP Servers: What I Learned the Hard Way](https://yogimathius.dev/blog/building-mcp-servers-what-i-learned-the-hard-way)
+- 2026-02-08 - [Running AI Locally in 2026: The Practical Guide](https://yogimathius.dev/blog/running-ai-locally-2026-practical-guide)
+- 2026-02-08 - [Rust and WebAssembly: From Niche to Infrastructure](https://yogimathius.dev/blog/rust-webassembly-niche-to-infrastructure-2026)
+- 2026-02-08 - [Software Engineering in the Age of AI Agents](https://yogimathius.dev/blog/software-engineering-age-of-ai-agents)
 <!--END_SECTION:latest_writing-->
 
 ## Contribution Activity
