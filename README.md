@@ -30,7 +30,11 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 ## Latest Writing
 
 <!--START_SECTION:latest_writing-->
-- Initializing dynamic writing feed...
+- 2026-02-07 - [Agentic AI Landscape 2026](https://github.com/yogimathius/remix-portfolio/blob/main/docs/agentic-ai-landscape-2026.md)
+- 2026-02-07 - [Agile AI Development 2026](https://github.com/yogimathius/remix-portfolio/blob/main/docs/agile-ai-development-2026.md)
+- 2026-02-07 - [Frontend Tech 2026 Research](https://github.com/yogimathius/remix-portfolio/blob/main/docs/frontend-tech-2026-research.md)
+- 2026-02-07 - [Local AI 2026 Deep Research](https://github.com/yogimathius/remix-portfolio/blob/main/docs/local-ai-2026-deep-research.md)
+- 2026-02-07 - [MCP Server Building Guide 2026](https://github.com/yogimathius/remix-portfolio/blob/main/docs/mcp-server-building-guide-2026.md)
 <!--END_SECTION:latest_writing-->
 
 ## Contribution Activity
