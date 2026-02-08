@@ -1,36 +1,42 @@
-# Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) I'm Mathius Johnson
+# Mathius Johnson
 
-## 🚀 Senior Software Engineer, AI Centaur & Technical Mentor
+Software engineer at Shopify building systems in Rust, Go, TypeScript, and Python.
 
-I'm a versatile developer with expertise across multiple technology stacks, currently working at Shopify while pursuing a Master's in Computer Science at Qwasar Silicon Valley. My development philosophy combines technical precision with creative problem-solving, always seeking to bridge the gap between complex challenges and elegant solutions.
+I focus on the infrastructure layer for the agentic era: MCP servers, context engineering, memory-aware workflows, and durable APIs.
 
-* 🌍 Based in Canada
-* 💼 Senior Software Engineer at [Shopify](https://shopify.com)
-* 📚 Pursuing MSc in Computer Science at Qwasar Silicon Valley
-* 📧 Contact me at [info@yogimathius.dev](mailto:info@yogimathius.dev)
-* 🧠 Deep diving into Elixir, Rust, and LLM Engineering
-* 🔗 View my full portfolio at [yogimathius.dev](https://yogimathius.dev)
+## Current Focus
 
-## 💻 Technical Expertise
+- Building production-grade MCP servers and agent tooling
+- Designing high-performance backend and systems infrastructure
+- Shipping practical AI products with strong engineering constraints
 
-| Frontend | Backend | Languages | Infrastructure |
-|----------|---------|-----------|----------------|
-| [![React](https://img.shields.io/badge/-React/Next.js-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/) | [![NestJS](https://img.shields.io/badge/-NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)](https://nestjs.com/) | [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/) | [![AWS](https://img.shields.io/badge/-AWS/GCP-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/) |
-| [![Remix](https://img.shields.io/badge/-Remix-000000?style=flat-square&logo=remix&logoColor=white)](https://remix.run/) | [![Express](https://img.shields.io/badge/-Express-000000?style=flat-square&logo=express&logoColor=white)](https://expressjs.com/) | [![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://www.rust-lang.org/) | [![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/) |
-| [![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)](https://angular.io/) | [![Rails](https://img.shields.io/badge/-Ruby%20on%20Rails-CC0000?style=flat-square&logo=ruby-on-rails&logoColor=white)](https://rubyonrails.org/) | [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/) | [![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)](https://kubernetes.io/) |
-| [![Redux](https://img.shields.io/badge/-Redux-764ABC?style=flat-square&logo=redux&logoColor=white)](https://redux.js.org/) | [![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/) | [![Ruby](https://img.shields.io/badge/-Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)](https://www.ruby-lang.org/) | [![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)](https://git-scm.com/) |
-| [![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white)](https://graphql.org/) | [![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)](https://www.mongodb.com/) | [![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)](https://golang.org/) | [![CI/CD](https://img.shields.io/badge/-CI/CD-2088FF?style=flat-square&logo=github-actions&logoColor=white)](https://github.com/features/actions) |
-| [![Tailwind](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) | [![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)](https://redis.io/) | [![Elixir](https://img.shields.io/badge/-Elixir-4B275F?style=flat-square&logo=elixir&logoColor=white)](https://elixir-lang.org/) | [![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)](https://www.linux.org/) |
+## Snapshot
 
-## 🎓 Education & Certifications
+- Location: West Coast, Canada
+- Role: Senior Software Engineer @ Shopify
+- Public repos: 218+
+- Core stack: Rust, Go, TypeScript, Python, Elixir
+- Portfolio: [yogimathius.github.io](https://yogimathius.github.io)
 
-- 🎓 MSc Computer Science, Software Engineering - Qwasar Silicon Valley (2025)
-- 🔒 Cybersecurity Essentials Certificate - Brainstation
-- 🎨 UX Design Certificate - Brainstation
-- 💻 Full Stack Web Development Diploma - Lighthouse Labs
+## Featured Work
 
-## 🤝 Let's Connect
+| Project | What it does | Stack |
+| --- | --- | --- |
+| [symbolic-ontology-mcp](https://github.com/yogimathius/symbolic-ontology-mcp) | MCP server for symbolic reasoning and ontology-backed agent context | Rust, MCP, PostgreSQL |
+| [core-war](https://github.com/yogimathius/core-war) | Core War implementation with battle engine, assembler, and terminal visualizer | Rust, TUI, VM design |
+| [praxis-forge](https://github.com/yogimathius/praxis-forge) | Goal execution platform focused on disciplined personal operating systems | Rust, Elixir, Phoenix |
+| [api-in-stress](https://github.com/yogimathius/api-in-stress) | API benchmarking and resilience experiments under sustained load | Rust, Axum, Observability |
+| [event_streaming](https://github.com/yogimathius/event_streaming) | Real-time event streaming architecture for asynchronous pipelines | Rust, Tokio, Distributed Systems |
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mathius-johnson)
-[![Email](https://img.shields.io/badge/-Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:info@yogimathius.dev)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=safari&logoColor=white)](https://yogimathius.github.io)
+## Engineering Domains
+
+- Systems: Rust, Go, C, WebAssembly
+- Web + AI: TypeScript, React, Python, MCP
+- Infrastructure: Docker, Kubernetes, AWS, CI/CD
+- Backend: Node.js, Elixir/Phoenix, PostgreSQL, Redis
+
+## Connect
+
+- GitHub: [@yogimathius](https://github.com/yogimathius)
+- LinkedIn: [mathiusjohnson](https://linkedin.com/in/mathiusjohnson)
+- Email: [info@yogimathius.dev](mailto:info@yogimathius.dev)
