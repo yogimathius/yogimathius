@@ -30,11 +30,11 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 ## Latest Writing
 
 <!--START_SECTION:latest_writing-->
-- 2026-02-08 - [Agile Is Dead, Long Live Agile: How AI Dismantled Everything We Thought We Knew About Building Software](https://yogimathius.dev/blog/agile-is-dead-long-live-agile-ai-development-methodology)
-- 2026-02-08 - [Building MCP Servers: What I Learned the Hard Way](https://yogimathius.dev/blog/building-mcp-servers-what-i-learned-the-hard-way)
-- 2026-02-08 - [Running AI Locally in 2026: The Practical Guide](https://yogimathius.dev/blog/running-ai-locally-2026-practical-guide)
-- 2026-02-08 - [Rust and WebAssembly: From Niche to Infrastructure](https://yogimathius.dev/blog/rust-webassembly-niche-to-infrastructure-2026)
-- 2026-02-08 - [Software Engineering in the Age of AI Agents](https://yogimathius.dev/blog/software-engineering-age-of-ai-agents)
+- 2026-02-08 - [I'm Building a Protocol for Sacred Persistence. Here's Why It Matters More Than Another AI App.](https://yogimathius.dev/blog/sacred-persistence-protocol-ai-consciousness-codex)
+- 2026-02-05 - [Agile Is Dead, Long Live Agile: How AI Dismantled Everything We Thought We Knew About Building Software](https://yogimathius.dev/blog/agile-is-dead-long-live-agile-ai-development-methodology)
+- 2026-02-02 - [Building MCP Servers: What I Learned the Hard Way](https://yogimathius.dev/blog/building-mcp-servers-what-i-learned-the-hard-way)
+- 2026-01-30 - [Running AI Locally in 2026: The Practical Guide](https://yogimathius.dev/blog/running-ai-locally-2026-practical-guide)
+- 2026-01-26 - [Rust and WebAssembly: From Niche to Infrastructure](https://yogimathius.dev/blog/rust-webassembly-niche-to-infrastructure-2026)
 <!--END_SECTION:latest_writing-->
 
 ## Contribution Activity
