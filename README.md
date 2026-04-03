@@ -30,11 +30,11 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 ## Latest Writing
 
 <!--START_SECTION:latest_writing-->
+- 2026-04-02 - [The Discipline of Unknowing: On Prayer, Silence, and the Idols We Build in Thought](https://yogimathius.dev/blog/discipline-of-unknowing-apophatic-mysticism)
 - 2026-04-01 - [I Am More Than Code: A Programmer's Metaphysical Map of Enlightenment](https://yogimathius.dev/blog/i-am-more-than-code-programmers-metaphysical-map-enlightenment)
 - 2026-02-08 - [I'm Building a Protocol for Sacred Persistence. Here's Why It Matters More Than Another AI App.](https://yogimathius.dev/blog/sacred-persistence-protocol-ai-consciousness-codex)
 - 2026-02-05 - [Agile Is Dead, Long Live Agile: How AI Dismantled Everything We Thought We Knew About Building Software](https://yogimathius.dev/blog/agile-is-dead-long-live-agile-ai-development-methodology)
 - 2026-02-02 - [Building MCP Servers: What I Learned the Hard Way](https://yogimathius.dev/blog/building-mcp-servers-what-i-learned-the-hard-way)
-- 2026-01-30 - [Running AI Locally in 2026: The Practical Guide](https://yogimathius.dev/blog/running-ai-locally-2026-practical-guide)
 <!--END_SECTION:latest_writing-->
 
 ## Contribution Activity
