@@ -54,6 +54,5 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 
 ## Connect
 
-- GitHub: [@yogimathius](https://github.com/yogimathius)
 - LinkedIn: [mathiusjohnson](https://linkedin.com/in/mathiusjohnson)
 - Email: [info@yogimathius.dev](mailto:info@yogimathius.dev)
