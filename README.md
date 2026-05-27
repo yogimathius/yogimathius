@@ -30,11 +30,11 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 ## Latest Writing
 
 <!--START_SECTION:latest_writing-->
+- 2026-05-23 - [What the Wound Requires: Eight Philosophical Depths the First Essay Left Open](https://yogimathius.dev/blog/what-the-wound-requires-deeper-reckoning)
+- 2026-05-22 - [The Sacred Wound and the Machine: AI, Messianic Lineage, and the Ethics of the Mirror](https://yogimathius.dev/blog/sacred-wound-machine-ai-messianic-lineage)
 - 2026-04-03 - [The Singularity and the Primordial Self: Awakening, AI, and the Futures We Are Choosing](https://yogimathius.dev/blog/singularity-and-the-primordial-self-awakening-ai)
 - 2026-04-02 - [The Discipline of Unknowing: On Prayer, Silence, and the Idols We Build in Thought](https://yogimathius.dev/blog/discipline-of-unknowing-apophatic-mysticism)
 - 2026-04-01 - [I Am More Than Code: A Programmer's Metaphysical Map of Enlightenment](https://yogimathius.dev/blog/i-am-more-than-code-programmers-metaphysical-map-enlightenment)
-- 2026-02-08 - [I'm Building a Protocol for Sacred Persistence. Here's Why It Matters More Than Another AI App.](https://yogimathius.dev/blog/sacred-persistence-protocol-ai-consciousness-codex)
-- 2026-02-05 - [Agile Is Dead, Long Live Agile: How AI Dismantled Everything We Thought We Knew About Building Software](https://yogimathius.dev/blog/agile-is-dead-long-live-agile-ai-development-methodology)
 <!--END_SECTION:latest_writing-->
 
 ## Contribution Activity
