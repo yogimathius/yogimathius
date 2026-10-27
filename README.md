@@ -30,7 +30,7 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 ## Latest Writing
 
 <!--START_SECTION:latest_writing-->
-- 2026-05-23 - [What the Wound Requires: Eight Philosophical Depths the First Essay Left Open](https://yogimathius.dev/blog/what-the-wound-requires-deeper-reckoning)
+- 2026-05-23 - [What the Wound Requires: Eight Philosophical Depths](https://yogimathius.dev/blog/what-the-wound-requires-deeper-reckoning)
 - 2026-05-22 - [The Sacred Wound and the Machine: AI, Messianic Lineage, and the Ethics of the Mirror](https://yogimathius.dev/blog/sacred-wound-machine-ai-messianic-lineage)
 - 2026-04-03 - [The Singularity and the Primordial Self: Awakening, AI, and the Futures We Are Choosing](https://yogimathius.dev/blog/singularity-and-the-primordial-self-awakening-ai)
 - 2026-04-02 - [The Discipline of Unknowing: On Prayer, Silence, and the Idols We Build in Thought](https://yogimathius.dev/blog/discipline-of-unknowing-apophatic-mysticism)
