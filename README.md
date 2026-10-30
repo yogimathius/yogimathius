@@ -30,7 +30,7 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 ## Latest Writing
 
 <!--START_SECTION:latest_writing-->
-- 2026-10-27 - [Every AI System Is Also a Training Environment](https://yogimathius.dev/blog/every-ai-system-is-a-training-environment)
+- 2026-10-27 - [When the Answer Arrives Before We Have Changed](https://yogimathius.dev/blog/every-ai-system-is-a-training-environment)
 - 2026-05-23 - [What the Wound Requires: Eight Philosophical Depths](https://yogimathius.dev/blog/what-the-wound-requires-deeper-reckoning)
 - 2026-05-22 - [The Sacred Wound and the Machine: AI, Messianic Lineage, and the Ethics of the Mirror](https://yogimathius.dev/blog/sacred-wound-machine-ai-messianic-lineage)
 - 2026-04-03 - [The Singularity and the Primordial Self: Awakening, AI, and the Futures We Are Choosing](https://yogimathius.dev/blog/singularity-and-the-primordial-self-awakening-ai)
