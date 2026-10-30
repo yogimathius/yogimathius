@@ -1,33 +1,31 @@
 # Mathius Johnson
 
-Senior software engineer at Shopify building systems in Typescript, Ruby, Rust, Go, and Python.
+Senior software engineer working on developer infrastructure, API tooling, and AI systems. I build at the boundary between what machines can propagate and what humans actually mean.
 
-I focus on the infrastructure layer for the agentic era: MCP servers, context engineering, memory-aware workflows, and durable APIs.
+## Focus
 
-## Current Focus
+- Developer and platform infrastructure: testing, compatibility, and CI tooling that makes change safer to ship
+- Agentic infrastructure: MCP servers, context engineering, and multi-agent workflows
+- Grounding LLMs in structured knowledge: ontologies and symbolic reasoning
+- Writing on technology, meaning, and lineage
 
-- Building production-grade MCP servers and agent tooling
-- Designing high-performance backend and systems infrastructure
-- Shipping practical AI products with strong engineering constraints
+## Background
 
-## Snapshot
+- MSc in Computer Science (Software Engineering), Woolf / Qwasar Silicon Valley, 2023-2025. Thesis: *Grounding LLMs for Symbolic Interpretation*, comparing MCP-grounded reasoning against prompting and RAG
+- Diploma in Full Stack Web Development, Lighthouse Labs, 2020
+- Instructor, mentor, and project evaluator at Lighthouse Labs, 2020-2024
 
-- Location: West Coast, Canada
-- Role: Senior Software Engineer @ Shopify
-- Core stack: Rust, Go, TypeScript, Python, Elixir
-- Portfolio: [yogimathius.dev](https://yogimathius.dev)
+## Stack
 
-## Featured Work
-
-| Project | What it does | Stack |
-| --- | --- | --- |
-| [symbolic-ontology-mcp](https://github.com/yogimathius/symbolic-ontology-mcp) | MCP server for symbolic reasoning and ontology-backed agent context | Rust, MCP, PostgreSQL |
-| [core-war](https://github.com/yogimathius/core-war) | Core War implementation with battle engine, assembler, and terminal visualizer | Rust, TUI, VM design |
-| [praxis-forge](https://github.com/yogimathius/praxis-forge) | Goal execution platform focused on disciplined personal operating systems | Rust, Elixir, Phoenix |
-| [api-in-stress](https://github.com/yogimathius/api-in-stress) | API benchmarking and resilience experiments under sustained load | Rust, Axum, Observability |
-| [event_streaming](https://github.com/yogimathius/event_streaming) | Real-time event streaming architecture for asynchronous pipelines | Rust, Tokio, Distributed Systems |
+- Languages: TypeScript, Ruby, Rust, Go, Python, C, Elixir
+- Web and APIs: React, Rails, GraphQL, Node.js, Phoenix, WebAssembly
+- Data and delivery: PostgreSQL, Redis, Google Cloud Platform, GitHub Actions, CI/CD
+- Testing: Jest, RSpec, Cypress
+- AI: MCP, multi-agent orchestration, agent-assisted development workflows
 
 ## Latest Writing
+
+Essays on AI, meaning, and technology as a practice, at [yogimathius.dev/blog](https://yogimathius.dev/blog).
 
 <!--START_SECTION:latest_writing-->
 - 2026-10-27 - [When the Answer Arrives Before We Have Changed](https://yogimathius.dev/blog/every-ai-system-is-a-training-environment)
@@ -37,22 +35,8 @@ I focus on the infrastructure layer for the agentic era: MCP servers, context en
 - 2026-04-02 - [The Discipline of Unknowing: On Prayer, Silence, and the Idols We Build in Thought](https://yogimathius.dev/blog/discipline-of-unknowing-apophatic-mysticism)
 <!--END_SECTION:latest_writing-->
 
-## Contribution Activity
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/github-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/github-snake.svg">
-  <img alt="GitHub contribution snake" src="assets/github-snake.svg">
-</picture>
-
-## Engineering Domains
-
-- Systems: Rust, Go, C, WebAssembly
-- Web + AI: TypeScript, React, Python, MCP
-- Infrastructure: Docker, Kubernetes, AWS, CI/CD
-- Backend: Node.js, Elixir/Phoenix, PostgreSQL, Redis
-
 ## Connect
 
+- Portfolio: [yogimathius.dev](https://yogimathius.dev)
 - LinkedIn: [mathiusjohnson](https://linkedin.com/in/mathiusjohnson)
 - Email: [info@yogimathius.dev](mailto:info@yogimathius.dev)
